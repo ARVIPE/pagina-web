@@ -1,16 +1,18 @@
+/* Introducimos la fuente */
 @font-face{
     font-family:"minecraft";
     src: url(images/minecraft_font.ttf)
-}/* Introducimos la fuente */
+}
 
 h1{
     font-family: "minecraft";
 }
 
+/* Le agrego un margen izquierdo al video */
 #iframeid{
 	margin-left: 250px;
 }
-/* Le agrego un margen izquierdo al video */
+
 
 #encabezado{
 	width: 1500px;
@@ -21,6 +23,7 @@ h1{
   height: 0px;
 }
 
+/**Creamos aquí nuestro menú indicandole un fondo, un sombreado **/
 nav ul {
     padding: 0;
     margin: 0;
@@ -38,14 +41,15 @@ nav ul {
 	width: 400px;
 	margin-top: 30px;
 }
-/**Creamos aquí nuestro menú indicandole un fondo, un sombreado **/
 
+/**le indico la fuente al menú **/
 .letramenu{
 	color: #FF0000;
 	font-family:"medieval";
 	font-size: 40px;
 }
-/**le indico la fuente al mení **/
+
+
 .block-small{
 	max-height: 32px !important;
 	max-width: 32px !important;
@@ -74,6 +78,7 @@ nav ul {
 	margin-top: 500px;
 }
 
+/** Hago mi div clase para indicar que los parrafos tienen de fondo una ventana con fondo blanco **/
 .texto{
 	background-color: white;
 	width: 1000px;
@@ -81,12 +86,13 @@ nav ul {
 	margin-left: 450px;
 	margin-top: 26px;
 }
-/** Hago mi div clase para indicar que los parrafos tienen de fondo una ventana con fondo blanco **/
 
 .imageCrafteos{
 	width: 50%;
 	margin-left: 200px;
 }
+
+/* Id único para el texto de los Mundos **/
 #textoMundos{
 	background-color: white;
 	width: 1000px;
@@ -95,7 +101,7 @@ nav ul {
 	margin-top: 26px;
 	border-radius: 20px;
 }
-/* Id único para el texto de los Mundos **/
+
 
 #textoEspecial{
 	background-color: white;
@@ -144,22 +150,23 @@ nav ul {
 	margin-left: 300px;
 }
 
+/**Tamaño de cada una de las imagenes de las celdas **/
 .imageCelda{
 	height: 60%;
 }
-/**Tamaño de cada una de las imagenes de las celdas **/
 
 
+/**Tamaño de cada una de las imagenes de las celdas de las tablas anidadas **/
 .imageCeldaPequeña{
 	height: 40%;
 
 }
-/**Tamaño de cada una de las imagenes de las celdas de las tablas anidadas **/
 
+/** CLase para indicar negrita en un tipo spam**/
 .palabra{
 	font-weight: bold;
 }
-/** CLase para indicar negrita en un tipo spam**/
+
 
 .anchoTitulo{
 	width: 10%;
