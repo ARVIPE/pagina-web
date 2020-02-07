@@ -1,7 +1,7 @@
 @font-face{
     font-family:"minecraft";
     src: url(images/minecraft_font.ttf)
-}
+}/* Introducimos la fuente */
 
 h1{
     font-family: "minecraft";
@@ -10,6 +10,7 @@ h1{
 #iframeid{
 	margin-left: 250px;
 }
+/* Le agrego un margen izquierdo al video */
 
 #encabezado{
 	width: 1500px;
@@ -36,16 +37,15 @@ nav ul {
 	height: 900px;
 	width: 400px;
 	margin-top: 30px;
-
-	
-
 }
+/**Creamos aquí nuestro menú indicandole un fondo, un sombreado **/
 
 .letramenu{
 	color: #FF0000;
 	font-family:"medieval";
 	font-size: 40px;
 }
+/**le indico la fuente al mení **/
 .block-small{
 	max-height: 32px !important;
 	max-width: 32px !important;
@@ -81,6 +81,7 @@ nav ul {
 	margin-left: 450px;
 	margin-top: 26px;
 }
+/** Hago mi div clase para indicar que los parrafos tienen de fondo una ventana con fondo blanco **/
 
 .imageCrafteos{
 	width: 50%;
@@ -94,6 +95,7 @@ nav ul {
 	margin-top: 26px;
 	border-radius: 20px;
 }
+/* Id único para el texto de los Mundos **/
 
 #textoEspecial{
 	background-color: white;
@@ -145,16 +147,19 @@ nav ul {
 .imageCelda{
 	height: 60%;
 }
+/**Tamaño de cada una de las imagenes de las celdas **/
 
 
 .imageCeldaPequeña{
 	height: 40%;
 
 }
+/**Tamaño de cada una de las imagenes de las celdas de las tablas anidadas **/
 
 .palabra{
 	font-weight: bold;
 }
+/** CLase para indicar negrita en un tipo spam**/
 
 .anchoTitulo{
 	width: 10%;

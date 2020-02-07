@@ -6,6 +6,7 @@ html{
    body{
     background-color: blue;
    }
+   /**Color de fondo y dimensiones de la caja del cuestionario **/
    .cont1{
     max-width: 1000px;
     height: 1000px;
@@ -13,6 +14,7 @@ html{
     padding-bottom: 1rem;
     margin-left: 450px;
    }
+   /**Caracteristicas borde superior cuestionario**/
    .form-top{
     width: 100%;
     text-align: center;
@@ -20,12 +22,14 @@ html{
     border-top: solid .4rem red;
     margin-bottom: 1rem;
    }
+   /**Dimesiones de letra de cuestionario **/
    .form-top h2{
    font-weight: bold;
    color: #cac8c8;
    font-size: 18px;
    
    }
+   /**Letra en rojo titulo cuestionario **/
    h2 span{
     color: red;
    }
@@ -40,6 +44,7 @@ html{
     justify-content: space-around;
     margin-top: 1rem;
    }
+   /**Caracteristicas clases entrada de datos y de limpiar**/
    .input, .btn-submit, .btn-reset{
     background-color: #efefef;
     padding: .5rem;
@@ -51,6 +56,7 @@ html{
    .input:focus{
     border-bottom: solid #f39b53 .2rem;
    }
+   /**Ancho botones tipo de borde y color**/
    .btn-submit, .btn-reset{
     width: 40%;
     border-bottom: none;
@@ -67,6 +73,7 @@ html{
    .btn-reset:hover{
     background-color: #fa9535;
    }
+   /**Tipo de letra del cuestionario**/
    .pregresp {
     border: 1px solid #7DA5E0;
     padding: 10px;
